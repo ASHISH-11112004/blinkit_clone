@@ -1,0 +1,329 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  gap: 30px;
+}
+
+.headerleft {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+}
+
+.address {
+  padding: 18px 30px;
+}
+
+.address h3 {
+  margin-bottom: 3px;
+}
+.address p {
+  font-size: 12px;
+}
+
+.searchbox {
+  flex-grow: 1;
+  display: flex;
+  background-color: #f8f8f8;
+  border: 1px solid #f4f4f4;
+   border-radius: 15px ;
+}
+
+.searchbox button{
+  padding: 15px;
+  background-color: transparent;
+  border: none;
+}
+
+.searchbox input {
+  flex-grow: 1;
+  background-color: transparent;
+  border: none;
+}
+
+.searchbox input:focus{
+  outline: none;
+}
+.headerbtn{
+  display: flex;
+  gap: 40px;
+  margin-right: 40px;
+
+}
+.headerbtn button{
+  padding: 15px;
+  border: none;
+  background-color: transparent;
+  font-size: 13px;
+  color: #ccc;
+
+
+}
+
+.headerbtn button:last-child{
+  background-color: rgb(12, 131, 31);
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.bannersection{
+  max-width: 1280px;
+  margin: 15px auto;
+}
+
+.bannersection img{
+  width: 100%;
+}
+
+.orderbanner{
+  display: flex;
+  margin: auto;
+  max-width: 1280px;
+}
+.orderbanneritems{
+  flex-basis: 27%;
+  margin: 1%;
+}
+.orderbanneritems img{
+  width: 100%;
+
+}
+
+.categorysection{
+   max-width: 1280px;
+  flex-wrap: wrap;
+  display: flex;
+  margin: auto;
+
+}
+
+.categoryitems{
+ flex-basis: 10%;
+}
+
+.categoryitems img{
+  width: 100%;
+}
+
+.productsection h2{
+  font-size: 21px
+}
+
+.productsection a{
+  color: #0c821f;
+  font-size: 18px;
+}
+.headingrow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.headingrow  h2{
+  font-size: 21px;
+}
+
+
+.headingrow a{
+  color: #0c821f;
+  font-size: 18px;
+  
+}
+
+.productrow {
+  width: 100%;
+  margin: 30px;
+  display: flex;
+  gap: 1%;
+  flex-wrap: wrap;
+
+}
+.productitems {
+  flex-basis: 15%;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px 2px #ccc;
+  
+}
+
+.product-image{
+  text-align: center;
+  padding: 10px;
+}
+.product-image p{
+ background-color: #f8f8f8;
+ display: flex;
+ width: 70px;
+ gap: 5px;
+ padding: 2px;
+ justify-content: center;
+ align-items: center;
+  font-size: 12px;
+  text-align: left;
+}
+
+.content{
+  padding: 15px;
+  padding-top: 0px;
+}
+
+.content h3{
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.content p{
+  font-size: 14px;
+  color: #ccc;
+}
+
+.btnadd{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  align-items: center;
+}
+
+.btnadd button{
+  border: 1px solid #0c821f;
+  background-color: #f7fff9;
+  padding: 5px 15px;
+  border-radius: 8px;
+}
+
+.footer{
+  padding: 40px 0px 0px 0px;
+}
+
+.footermid{
+  max-width: 1280px;
+  margin: auto;
+}
+
+.footermidrow1{
+  display: flex;
+  width: 100%;
+}
+
+.footerleft h3{
+  margin-bottom: 20px;
+}
+.footerleft{
+  flex-basis: 30% ;
+}
+
+.footerright{
+  flex-basis: 70% ;
+}
+
+.quicklinks{
+  display: flex;
+}
+
+.quicklinks ul{
+  flex-basis: 33%;
+  list-style: none;
+}
+
+.quicklinks ul li a{
+  font-size: 15px;
+  display: block;
+  color: rgb(102, 102, 102);
+  margin-bottom: 10px;
+}
+
+.footerright h3{
+   margin-bottom: 20px;
+}
+
+.txt{
+  display: flex;
+  gap: 12px;
+}
+
+.txt a{
+  color: #0c821f;
+  font-size: 18px;
+}
+
+.link{
+  display: flex;
+}
+
+.link ul{
+  flex-basis: 33%;
+  list-style: none;
+}
+
+.link ul li a{
+  font-size: 15px;
+  display: block;
+  color: rgb(102, 102, 102);
+  margin-bottom: 10px;
+}
+
+.footermidrow3{
+  font-size: 16px;
+  color: rgb(102, 102, 102);
+  padding: 10px ;
+  line-height: 20px;
+  margin-top: 30px;
+
+}
+
+.footermidrow2{
+  display: flex;
+ 
+}
+
+.footermidrow2 p{
+  flex-basis: 40%;
+  margin-left: 70px;
+  margin-top: 30px;
+  color:rgb(102, 102, 102) ;
+  font-size: 13px;
+  
+}
+.footermidrow2-right{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 30px;
+}
+.footermidrow2-right h5{
+  color:rgb(102, 102, 102) ;
+  font-size: 14px;
+}
+.icons{
+  display: flex;
+  gap: 10px
+  ;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+ .icons i{
+  width: 40px;
+  color: white;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+ }

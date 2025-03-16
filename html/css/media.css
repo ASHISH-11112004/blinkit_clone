@@ -1,0 +1,53 @@
+@media only screen and (min-width:200px) and (max-width:575px) {
+    header{
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .headerleft{
+        justify-content: center;
+    }
+    .logo{
+        padding: 10px;
+    }
+    .address{
+        padding: 10px;
+    }
+    .searchbox button{
+        padding: 10px;
+    }
+
+    .headerbtn{
+        position: fixed;
+         width: 100%;
+         margin-right: 0px;
+         justify-content: center;
+         bottom: 0px;
+         background-color: white;
+    }
+
+    .bannersection{
+        display: none;
+    }
+
+    .orderbanner{
+        flex-direction: column;
+        
+    }
+
+    .categoryitems{
+        flex-basis: 25%;
+    }
+    .productitems{
+        flex-basis: 49%;
+    }
+    .footer{
+        padding: 0;
+    }
+
+    .footermidrow1{
+        flex-direction: column;
+        padding: 10px;
+    }
+
+
+}
